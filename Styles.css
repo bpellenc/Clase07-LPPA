@@ -1,0 +1,168 @@
+.articulo{
+    padding-left: 1em;
+    
+}
+
+.headers{
+    width: 900px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.h1-title{
+    font-style:normal ;
+}
+
+.h2-sub{
+    font-weight: lighter;
+    font-size: medium;
+}
+
+.desc-img{
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    font-family: Libre Franklin,sans-serif;
+    box-sizing: border-box;
+    color: #555;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 10px 0;
+    margin-left: 16px;
+}
+
+.botones-submenu {
+    margin-left: 250px;
+    padding-top: 10px;
+}
+
+.img-submenu{
+    margin-left: 380px;
+    width: 100%;
+}
+
+.parrafos{
+    width: 98%;
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    font-family: Libre Franklin,sans-serif;
+    color: #1f1f1f;
+    box-sizing: border-box;
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 16px;
+    letter-spacing: normal;
+    line-height: 1.7;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.logo-image{
+    margin-left: 400px;
+}
+
+.body-articulo {
+    width: 1000px;
+    font-size: 16px;
+    letter-spacing: normal;
+    line-height: 1.7;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.botones-encabezado{
+    text-decoration: none;
+}
+
+.articulo-content{
+    align-content: center;
+    width: 400px;
+}
+
+.submenu{
+    color: #1f1f1f;
+    box-sizing: border-box;
+    display: flex;
+    border-bottom: 1px solid #d5d5d5;
+    flex-direction: column;
+    font-family: Raleway, sans-serif;
+    height: auto;
+    margin: 10px 0 15px;
+    padding-top: 30px;
+    width: 250%;
+}
+
+.contenedor-fecha{
+    color: #1f1f1f;
+    font-family: Raleway, sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.mhh-date-line{
+    color: #1f1f1f;
+    font-family: Raleway, sans-serif;
+    box-sizing: border-box;
+    border-bottom: 1px solid #666;
+    width: 100%;
+}
+
+.mhh-date-item{
+    font-family: Raleway, sans-serif;
+    box-sizing: border-box;
+    color: #666;
+    flex-shrink: 0;
+    font-size: 14px;
+    font-style: italic;
+    max-height: 20px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.encabezado{
+    font-family: Libre Franklin, sans-serif;
+    color: #1f1f1f;
+    box-sizing: border-box;
+    height: 54px;
+    overflow: hidden;
+    float: right;
+
+    list-style-type: none;
+    width: 12000px;
+    padding: 5px 48px;
+    position: fixed;
+    top: 0;
+    background: white;
+    border-bottom: #d5d5d5 solid 1px;
+}
+
+/* Se ocultan los botones de arriba cuando la pantalla se llega a determinado tamaño */
+@media only screen and (max-width: 800px){
+    .botones-encabezado{
+        visibility:hidden
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .submenu{
+        visibility:hidden
+    }
+}
+
+/* La idea es que cuando este normal la pagina no se vea el INFOBAE y cuando se achique se muestre y se oculten los botones */
+@media only screen and (min-width: 800px){
+    .logo-image{
+        visibility:hidden
+    }
+}
+
+@media only screen and (max-width: 300px){
+    .logo-image{
+        visibility:hidden
+    }
+}
